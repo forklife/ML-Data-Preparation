@@ -1,0 +1,24 @@
+
+# Components Overview
+
+This file provides information about the available components in the project and their functionalities.
+
+## Available Components:
+
+1. **data_transformation.py**:
+   - Handles data preparation, cleaning, and transformation before further processing.
+
+2. **data_validation.py**:
+   - Validates datasets with detailed checks and corrections.
+
+3. **indicators_metrics_builder.py**:
+   - Calculates indicators and trading signals based on the input data.
+
+4. **debug.py**:
+   - Manages logging and debugging messages, providing different logging levels (DEBUG, INFO, ERROR).
+
+5. **version_control.py**:
+   - Tracks version changes of the components and ensures compatibility across updates.
+
+6. **mt5_api.py** (Connector):
+   - Connects to MetaTrader 5, manages data fetching, symbol availability checks, and connection handling.

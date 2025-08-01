@@ -1,0 +1,13 @@
+# Connectors Overview
+
+This file provides information about the available connectors in the project and their functionalities.
+
+## Available Connectors:
+
+1. **mt5_api.py**:
+   - Connects to MetaTrader 5.
+   - Manages data fetching including historical and real-time data.
+   - Checks symbol availability within MT5.
+   - Handles connection initialization and shutdown, ensuring reliable data operations.
+   - Provides functions for fetching data, validating connection status, and handling connection errors.
+

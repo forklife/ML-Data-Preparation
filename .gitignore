@@ -1,0 +1,69 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# --- Virtual environments ---
+venv/
+.env/
+env/
+*.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb~
+
+# --- VSCode / PyCharm ---
+.vscode/
+.idea/
+
+# --- Logs / Temp ---
+*.log
+*.tmp
+*.bak
+
+# --- Model artifacts ---
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# --- Data files ---
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.npy
+*.npz
+data/
+datasets/
+
+# --- Output files ---
+outputs/
+results/
+predictions/
+*.pdf
+*.png
+*.jpg
+
+# --- Archive files ---
+*.zip
+*.rar
+*.7z
+
+# --- Git backups (Notepad++) ---
+nppBackup/
+
+# --- System files ---
+.DS_Store
+Thumbs.db

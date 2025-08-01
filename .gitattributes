@@ -1,0 +1,34 @@
+# --- Автоматическая нормализация окончания строк ---
+* text=auto
+
+# --- Принудительное LF для текстовых файлов ---
+*.py     text eol=lf
+*.ipynb  text eol=lf
+*.md     text eol=lf
+*.txt    text eol=lf
+*.csv    text eol=lf
+*.json   text eol=lf
+*.yaml   text eol=lf
+*.yml    text eol=lf
+
+# --- Бинарные файлы (не трекаем diff, не меняем EOL) ---
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.zip    binary
+*.tar    binary
+*.gz     binary
+*.pkl    binary
+*.pt     binary
+*.h5     binary
+*.onnx   binary
+*.tflite binary
+*.joblib binary
+*.npy    binary
+*.npz    binary
+*.parquet binary
+*.feather binary
+
+# --- Jupyter notebooks: если используешь nbstripout или аналог ---
+*.ipynb  filter=strip-notebook

@@ -1,0 +1,41 @@
+фиксируем набор библиоте
+
+pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
+pip install --no-deps pytorch-forecasting==1.2.0
+pip install scikit-learn pandas matplotlib tqdm
+
+
+
+Torch 2.1.0+cu121
+runpod/pytorch:2.2.0-py3.10-cuda12.1.1-devel-ubuntu22.04
+
+pip install --upgrade pip darts lightgbm catboost colorama
+pip install --upgrade pip Lightning==2.0.2 pytorch-forecasting==1.1.1 scikit-learn pandas matplotlib tqdm
+python -m pip install --upgrade pip
+pip install darts
+pip install --no-deps darts
+pip install torch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 --index-url https://download.pytorch.org/whl/rocm6.2
+pip install torch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 --index-url https://download.pytorch.org/whl/cu124
+pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124
+
+
+apt update
+apt install sudo
+sudo apt install -y tzdata
+sudo dpkg-reconfigure tzdata
+
+pip install neuralforecast matplotlib
+pip install matplotlib
+
+holidays>=0.11.1 matplotlib>=3.3.0 nfoursid>=1.0.0 pandas>=1.0.5 pmdarima>=1.8.0 pyod>=0.9.5 pytorch-lightning>=1.5.0 shap>=0.40.0 statsforecast>=1.4
+
+
+pip3 install ta-lib
+pip3 install pandas-ta
+
+
+The ~/.ssh/id_ed25519 path resolves correctly on Windows to C:\Users\den\.ssh\id_ed25519, but the file might not be readable or valid.
+Fixes to try (in order):
+
+
+ssh-keygen -t ed25519 -C "your_email@example.com" (this creates a new key pair in ~/.ssh/).

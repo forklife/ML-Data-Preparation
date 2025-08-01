@@ -1,0 +1,52 @@
+
+Чеклист индикаторов для реализации:
+
+Реализованные индикаторы:
+	 Relative Strength Index (RSI) - Реализован
+	 Exponential Moving Average (EMA) - Реализован
+	 On-Balance Volume (OBV) - Реализован
+	 Accumulation/Distribution Line (A/D Line) - Реализован
+	 Simple Moving Average Strategy - Реализован
+	 Fibonacci Retracement - Реализован
+	 Double Top и Double Bottom - Реализован
+	 Average Directional Index (ADX) - Нужно добавить
+	 Aroon Oscillator - Нужно добавить
+	 
+Индикаторы, которые нужно реализовать:
+	 Markov Chain Trend Indicator - Требует доработки
+	 Elliott Wave - Требует доработки
+	 Divergence - Частично реализован, нужно проверить и доработать
+	 Parabolic SAR - Требует доработки
+	 Currency Correlation - Требует доработки
+	 Carry Trade Strategy - Требует доработки
+
+
+	 Moving Average Convergence Divergence (MACD) - Нужно добавить
+	 Stochastic Oscillator - Нужно добавить
+	 Directional Movement Index (DMI) - Нужно добавить
+	 
+План работы с чеклистом:
+	Поэтапная реализация: будем последовательно добавлять индикаторы из списка, начиная с простых и постепенно переходя к более сложным.
+	Тестирование после добавления: после добавления каждого индикатора будем тестировать его работу на реальных данных.
+	Обновление статуса: после успешной интеграции и тестирования будем отмечать индикатор как реализованный.
+	Если готовы продолжить по этому списку, можем выбрать следующий индикатор для реализации и начать его добавление!
+	
+	
+Итоговый список индикаторов:
+Pandas TA - есть (легко реализуемые):
+
+Moving Average Convergence Divergence (MACD)
+Stochastic Oscillator
+Directional Movement Index (DMI)
+Parabolic SAR
+Лёгкий:
+
+Currency Correlation
+Средний:
+
+Divergence (частично реализован)
+Carry Trade Strategy
+Сложный:
+
+Markov Chain Trend Indicator
+Elliott Wave
